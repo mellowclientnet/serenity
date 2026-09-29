@@ -112,36 +112,36 @@ export const botConfig = {
       green: "#57F287",
       yellow: "#FEE75C",
       fuchsia: "#EB459E",
-      red: "#ED4245",
+      red: "#9e111d",
       black: "#000000",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
+        active: "#9e111d",
         ended: "#ED4245",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#9e111d",
+        claimed: "#9e111d",
+        closed: "#9e111d",
+        pending: "#9e111d",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#9e111d",
+      birthday: "#9e111d",
+      moderation: "#9e111d",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#9e111d",
+        low: "#9e111d",
+        medium: "#9e111d",
+        high: "#9e111d",
+        urgent: "#9e111d",
       },
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: Serenity",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,9 +161,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "cash",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "cash",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -175,7 +175,7 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 150,
 
     // Work command random payout range.
     workMin: 10,
